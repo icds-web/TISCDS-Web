@@ -247,6 +247,356 @@ h1, h2, h3, h4, h5, h6, figure {
           -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0); }
 
+
+          #hero .btn-get-started {
+            font-family: "Raleway", sans-serif;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 16px;
+            letter-spacing: 1px;
+            display: inline-block;
+            padding: 8px 28px;
+            border-radius: 4px;
+            transition: 0.5s;
+            border: 2px solid #fff;
+            color: #fff;
+          }
+
+          #hero .btn-get-started:hover {
+            border-color: #1bac91;
+            background: #1bac91;
+          }
+
+
+          /*--------------------------------------------------------------
+          # About
+          --------------------------------------------------------------*/
+          .about h3 {
+            font-weight: 400;
+            font-size: 34px;
+            color: #21413c;
+            font-family: "Open Sans", Arial, sans-serif;
+            margin-top: 90px;
+            font-weight: bold;
+          }
+
+          .about .icon-box {
+            margin-top: 48px;
+          }
+
+          .about .icon-box i {
+            font-size: 45px;
+            float: left;
+            color: #ffffff;
+            margin-left: -25px;
+          }
+
+          .about .icon-box h4 {
+            font-size: 22px;
+            font-weight: 500;
+            margin-left: 45px;
+            color: #21413c;
+            font-family: "Raleway", sans-serif;
+            margin-top: -22px;
+            font-weight: 500;
+          }
+
+          .about .icon-box p {
+            font-size: 15px;
+            color: #848484;
+            margin-left: 45px;
+            margin-top: -10px;
+            font-family: 'Poppins', sans-serif;
+          }
+
+          /*--------------------------------------------------------------
+          # Process Section
+          --------------------------------------------------------------*/
+
+          #process{
+            color: #4d4646;
+            text-align: center;
+            margin: 100px;
+            font-family: "Raleway", sans-serif;
+            background-color: #e3f6f5;
+            padding: 50px 0 40px 0;
+          }
+
+           .process-subheading{
+            font-weight: 500;
+            font-size: 40px;
+            font-weight: bold;
+            margin-left: -25px;
+          }
+
+          .process-heading{
+            margin: 5% 7%;
+            font-size: 2.5rem;
+            line-height: 1;
+            margin-left: -25px;
+            font-weight: 400;
+            font-size: 25px;
+
+          }
+
+          .process-para{
+            margin: 5% 15% 5%;
+            font-size: 1rem;
+            font-size: 15px;
+            margin-left: -14px;
+
+          }
+
+          /* Blogs Section */
+
+          #blogs{
+            background-color: #fff;
+            color: #000;
+            font-family: "Raleway", sans-serif;
+            margin-left: 100px;
+
+          }
+
+          .mb-4{
+            font-family: "Montserrat";
+            font-size: 40px;
+            font-weight: bold;
+            font-family: "Raleway", sans-serif;
+            margin-top: 40px;
+            line-height: 1.5;
+            margin-bottom: 0;
+            margin-left: 420px;
+          }
+
+          .blog-heading{
+            font-size: 25px;
+            line-height: 1.5;
+            text-align: center;
+            margin-top: 60px;
+            margin-bottom: 20px;
+            margin-left: 80px;
+            font-family: "Raleway", sans-serif;
+          }
+
+          .blog-image{
+            height: 30%;
+            margin-left: 40px;
+            margin-top: 50px;
+          }
+
+          .blog-image2{
+            margin-left: 230px;
+            margin-top: 50px;
+          }
+
+          .blog-heading2{
+            font-size: 25px;
+            line-height: 1.5;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: 180px;
+            margin-right: -10px;
+            font-family: "Raleway", sans-serif;
+          }
+
+
+          .blog-container{
+            height: 700px;
+          }
+
+          /*--------------------------------------------------------------
+          # Contact
+          --------------------------------------------------------------*/
+          .contact .info {
+            padding: 30px;
+            width: 100%;
+            background: #fff;
+            box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 50px;
+          }
+
+          .contact .section-title h2{
+            margin-left: 500px;
+            margin-bottom: 50px;
+            font-family: "Raleway", sans-serif;
+            font-size: 40px;
+            font-weight: bold;
+            margin-top: 20px;
+          }
+          
+
+          .contact .info i {
+            font-size: 20px;
+            color: #1bac91;
+            float: left;
+            width: 44px;
+            height: 44px;
+            background: #e1f0ee;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50px;
+            transition: all 0.3s ease-in-out;
+          }
+
+          .contact .info h4 {
+            padding: 0 0 0 60px;
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 5px;
+            color: #21413c;
+            font-family: "Raleway", sans-serif;
+          }
+
+          .contact .info p {
+            padding: 0 0 0 60px;
+            margin-bottom: 0;
+            font-size: 14px;
+            color: #43857a;
+            font-family: "Raleway", sans-serif;
+          }
+
+          .contact .info .email p {
+            padding-top: 5px;
+            font-family: "Raleway", sans-serif;
+          }
+
+          .contact .info .social-links {
+            padding-left: 60px;
+          }
+
+          .contact .info .social-links a {
+            font-size: 18px;
+            display: inline-block;
+            background: #333;
+            color: #fff;
+            line-height: 1;
+            padding: 8px 0;
+            border-radius: 50%;
+            text-align: center;
+            width: 36px;
+            height: 36px;
+            transition: 0.3s;
+            margin-right: 10px;
+          }
+
+          .contact .info .social-links a:hover {
+            background: #1bac91;
+            color: #fff;
+          }
+
+          .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+            background: #1bac91;
+            color: #fff;
+          }
+
+          .contact .php-email-form {
+            width: 100%;
+            padding: 30px;
+            background: #fff;
+            box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+            margin-left: 100px;
+            margin-bottom: 80px;
+            font-family: "Raleway", sans-serif;
+          }
+
+          .contact .php-email-form .form-group {
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+          }
+
+          .contact .php-email-form .validate {
+            display: none;
+            color: red;
+            margin: 0 0 15px 0;
+            font-weight: 400;
+            font-size: 13px;
+          }
+
+          .contact .php-email-form .error-message {
+            display: none;
+            color: #fff;
+            background: #ed3c0d;
+            text-align: center;
+            padding: 15px;
+            font-weight: 600;
+          }
+
+          .contact .php-email-form .sent-message {
+            display: none;
+            color: #fff;
+            background: #18d26e;
+            text-align: center;
+            padding: 15px;
+            font-weight: 600;
+          }
+
+          .contact .php-email-form .loading {
+            display: none;
+            background: #fff;
+            text-align: center;
+            padding: 15px;
+          }
+
+          .contact .php-email-form .loading:before {
+            content: "";
+            display: inline-block;
+            border-radius: 50%;
+            width: 24px;
+            height: 24px;
+            margin: 0 10px -6px 0;
+            border: 3px solid #18d26e;
+            border-top-color: #eee;
+            -webkit-animation: animate-loading 1s linear infinite;
+            animation: animate-loading 1s linear infinite;
+          }
+
+          .contact .php-email-form input, .contact .php-email-form textarea {
+            border-radius: 0;
+            box-shadow: none;
+            font-size: 14px;
+          }
+
+          .contact .php-email-form input {
+            height: 44px;
+          }
+
+          .contact .php-email-form textarea {
+            padding: 10px 12px;
+          }
+
+          .contact .php-email-form button[type="submit"] {
+            background: #1bac91;
+            border: 0;
+            padding: 10px 24px;
+            color: #fff;
+            transition: 0.4s;
+            border-radius: 4px;
+          }
+
+          .contact .php-email-form button[type="submit"]:hover {
+            background: #22d8b6;
+          }
+
+          @-webkit-keyframes animate-loading {
+            0% {
+              transform: rotate(0deg);
+            }
+            100% {
+              transform: rotate(360deg);
+            }
+          }
+
+          @keyframes animate-loading {
+            0% {
+              transform: rotate(0deg);
+            }
+            100% {
+              transform: rotate(360deg);
+            }
+          }
+
+
 .colorlib-video {
   overflow: hidden;
   position: relative;
