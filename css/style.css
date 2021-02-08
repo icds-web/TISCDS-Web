@@ -125,22 +125,20 @@ h1, h2, h3, h4, h5, h6, figure {
       .colorlib-nav .upper-menu .btn-apply a {
         color: rgba(255, 255, 255, 0.6); }
   .colorlib-nav .top-menu {
-    padding: 30px 30px; }
+    padding: 50px 30px 20px 30px; }
     @media screen and (max-width: 768px) {
       .colorlib-nav .top-menu {
         padding: 28px 1em; } }
   .colorlib-nav #colorlib-logo {
-    font-size: 30px;
-    font-family: "HK Grotesk Bold";
-    margin: 0;
-    padding: 0;
-    text-transform: uppercase;
+    font-size: 40px;
+    font-family: "Open Sans", Arial, sans-serif;
+    margin: -20px 30px 20px 30px;
     font-weight: 800;
     color: #cd0a0a;
   }
     .colorlib-nav #colorlib-logo a {
       position: relative;
-      color: #000; }
+      color: #bb2205; }
       .colorlib-nav #colorlib-logo a i {
         color: #429FFD; }
   @media screen and (max-width: 768px) {
@@ -250,7 +248,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 
           #hero .btn-get-started {
-            font-family: "Raleway", sans-serif;
+            font-family: "Open Sans", Arial, sans-serif;
             text-transform: uppercase;
             font-weight: 500;
             font-size: 20px;
@@ -263,8 +261,14 @@ h1, h2, h3, h4, h5, h6, figure {
             color: #fff;
           }
 
+          #colorlib-hero .slider-text-inner h1{
+            font-size: 50px;
+            font-family: "Open Sans", Arial, sans-serif;
+          }
+
           #colorlib-hero .slider-text-inner h2{
             font-size: 40px;
+            font-family: "Open Sans", Arial, sans-serif;
           }
 
 
@@ -423,11 +427,11 @@ h1, h2, h3, h4, h5, h6, figure {
 
           .contact .section-title h2{
             margin-left: 500px;
+            margin-top: 100px;
             margin-bottom: 50px;
-            font-family: "Raleway", sans-serif;
+            font-family: "Open Sans", Arial, sans-serif;
             font-size: 40px;
             font-weight: bold;
-            margin-top: 100px;
           }
 
 
@@ -451,7 +455,7 @@ h1, h2, h3, h4, h5, h6, figure {
             font-weight: 600;
             margin-bottom: 5px;
             color: #21413c;
-            font-family: "Raleway", sans-serif;
+            font-family: "Open Sans", Arial, sans-serif;
           }
 
           .contact .info p {
@@ -459,12 +463,12 @@ h1, h2, h3, h4, h5, h6, figure {
             margin-bottom: 0;
             font-size: 14px;
             color: #43857a;
-            font-family: "Raleway", sans-serif;
+            font-family: "Open Sans", Arial, sans-serif;
           }
 
           .contact .info .email p {
             padding-top: 5px;
-            font-family: "Raleway", sans-serif;
+            font-family: "Open Sans", Arial, sans-serif;
           }
 
           .contact .info .social-links {
