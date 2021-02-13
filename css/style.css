@@ -267,7 +267,7 @@ h1, h2, h3, h4, h5, h6, figure {
           }
 
           #colorlib-hero .slider-text-inner h2{
-            font-size: 40px;
+            font-size: 50px;
             font-family: "Open Sans", Arial, sans-serif;
           }
 
@@ -2475,9 +2475,12 @@ input[type="text"] {
   #colorlib-subscribe .colorlib-heading {
     margin-bottom: 20px; }
     #colorlib-subscribe .colorlib-heading h2 {
-      color: #fff; }
+      color: #fff;
+      font-family: "Open Sans", Arial, sans-serif;
+     }
     #colorlib-subscribe .colorlib-heading p {
       font-size: 18px;
+      font-family: "Open Sans", Arial, sans-serif;
       color: rgba(255, 255, 255, 0.6); }
 
 .qbstp-header-subscribe {
